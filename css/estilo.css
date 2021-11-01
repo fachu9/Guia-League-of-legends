@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+header h1 {
+  font-family: 'Berkshire Swash', cursive;
+  color: #C99F02;
+  font-size: 100px; }
+
+section h2 {
+  font-family: 'Berkshire Swash', cursive;
+  color: #C99F02;
+  font-size: 40px; }
+
+section h3 {
+  color: #EC9E05;
+  font-size: 25px; }
+
+section p {
+  font-family: 'Work Sans', sans-serif;
+  color: red;
+  letter-spacing: 1px;
+  font-size: 18px; }
+
+.menu a {
+  color: red;
+  display: block;
+  padding: 30px 257px;
+  text-decoration: none; }
+
+.menu a:hover {
+  color: #ff6669; }
+
+.menu {
+  background-color: #330001;
+  font-family: 'Work Sans', sans-serif; }
+  .menu li {
+    list-style: none;
+    display: inline-block; }
+
+.secciones {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 150px 110px 120px 120px 120px 110px;
+  align-items: center;
+  grid-template-areas: "titulo titulo titulo" "top top mapa" "jg jg mapa" "mid mid mapa" "adc adc mapa" "supp supp mapa"; }
+  .secciones .titulo {
+    grid-area: titulo;
+    text-align: center; }
+  .secciones .top {
+    grid-area: top; }
+  .secciones .jg {
+    grid-area: jg; }
+  .secciones .mid {
+    grid-area: mid; }
+  .secciones .adc {
+    grid-area: adc; }
+  .secciones .supp {
+    grid-area: supp; }
+  .secciones .mapa {
+    grid-area: mapa;
+    padding: 5px;
+    text-align: right; }
+
+.campeones {
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 5% 65% 30%;
+  grid-template-rows: 150px 100px 100px 100px 100px 100px 100px;
+  align-items: center;
+  grid-template-areas: "pjl pjl pjl" "ty rey montagelee" "ir cuchilla montagelee" "le monje montagelee" "ta navaja montage" "va cazadora montage" "lu hechizera montage"; }
+  .campeones .pjl {
+    grid-area: pjl;
+    text-align: center; }
+  .campeones .ty {
+    grid-area: ty; }
+  .campeones .rey {
+    grid-area: rey; }
+  .campeones .ir {
+    grid-area: ir; }
+  .campeones .cuchilla {
+    grid-area: cuchilla; }
+  .campeones .le {
+    grid-area: le; }
+  .campeones .monje {
+    grid-area: monje; }
+  .campeones .ta {
+    grid-area: ta; }
+  .campeones .navaja {
+    grid-area: navaja; }
+  .campeones .va {
+    grid-area: va; }
+  .campeones .cazadora {
+    grid-area: cazadora; }
+  .campeones .lu {
+    grid-area: lu; }
+  .campeones .hechizera {
+    grid-area: hechizera; }
+  .campeones .montage {
+    grid-area: montage;
+    text-align: right;
+    padding: 5px; }
+  .campeones .montagelee {
+    grid-area: montagelee;
+    text-align: right;
+    padding: 5px; }
+  .campeones .pj:hover {
+    transform: scale(1.1); }
+
+.streamers a {
+  color: red;
+  text-decoration: none;
+  display: block; }
+
+.streamers a:hover {
+  color: #ff6669; }
+
+.streamers .conocidos {
+  text-align: center;
+  padding: 15px; }
+
+.streamers .streamers {
+  display: flex;
+  flex-direction: column;
+  padding: 10px; }
+
+.streamers .stream {
+  padding: 10px;
+  margin: 5px;
+  line-height: 20px;
+  font-size: 20px;
+  text-align: center; }
+
+footer .foot {
+  background-color: #330001;
+  height: 100px;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold; }
+
+@media screen and (max-width: 576px) {
+  header {
+    font-size: 30px; }
+  a {
+    padding: 20px 70px; }
+  h2 {
+    font-size: 40px; }
+  h3 {
+    font-size: 20px; }
+  p {
+    font-size: 15px; }
+  .secciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .campeones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .streamers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .montage {
+    padding: 0px; }
+  .montagelee {
+    padding: 0px; } }

@@ -1,0 +1,241 @@
+$ancho:30px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+header{
+    h1{
+        font-family: 'Berkshire Swash', cursive;
+    color: #C99F02;
+    font-size: 100px;
+    }
+}
+section{
+    h2{
+        font-family: 'Berkshire Swash', cursive;
+    color: #C99F02;
+    font-size: 40px;
+    }
+}
+section{
+    h3{
+        color: #EC9E05;
+    font-size: 25px;
+    }
+}
+section{
+    p{
+        font-family: 'Work Sans', sans-serif;
+    color: red;
+    letter-spacing: 1px;
+    font-size: 18px;
+    }
+}
+.menu{
+    a{
+        color: red;
+    display: block;
+    padding: $ancho/2 257px;
+    text-decoration: none;
+    }
+}
+.menu{
+    a:hover{
+        color: #ff6669;
+    }
+}
+.menu{
+    background-color: #330001;
+    font-family: 'Work Sans', sans-serif;
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+}
+.secciones{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 150px 110px 120px 120px 120px 110px;
+    align-items: center;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "top top mapa"
+    "jg jg mapa"
+    "mid mid mapa"
+    "adc adc mapa"
+    "supp supp mapa"
+    ;
+    .titulo{
+        grid-area: titulo;
+        text-align: center;
+    }
+    .top{
+        grid-area: top;
+    }
+    .jg{
+        grid-area: jg;
+    }
+    .mid{
+        grid-area: mid;
+    }
+    .adc{
+        grid-area: adc;
+    }
+    .supp{
+        grid-area: supp;
+    }
+    .mapa{
+        grid-area: mapa;
+        padding: 5px;
+        text-align: right;
+    }
+}
+.campeones{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 5% 65% 30%;
+    grid-template-rows: 150px 100px 100px 100px 100px 100px 100px;
+    align-items: center;
+    grid-template-areas: 
+    "pjl pjl pjl"
+    "ty rey montagelee"
+    "ir cuchilla montagelee"
+    "le monje montagelee"
+    "ta navaja montage"
+    "va cazadora montage"
+    "lu hechizera montage"   
+    ;
+    .pjl{
+        grid-area: pjl;
+        text-align: center;
+    }
+    .ty{
+        grid-area: ty;
+    }
+    .rey{
+        grid-area: rey;
+    }
+    .ir{
+        grid-area: ir;
+    }
+    .cuchilla{
+        grid-area: cuchilla;
+    }
+    .le{
+        grid-area: le;
+    }
+    .monje{
+        grid-area: monje;
+    }
+    .ta{
+        grid-area: ta;
+    }
+    .navaja{
+        grid-area: navaja;
+    }
+    .va{
+        grid-area: va;
+    }
+    .cazadora{
+        grid-area: cazadora;
+    }
+    .lu{
+        grid-area: lu;
+    }
+    .hechizera{
+        grid-area: hechizera;
+    }
+    .montage{
+        grid-area: montage;
+        text-align: right;
+        padding: 5px;
+    }
+    .montagelee{
+        grid-area: montagelee;
+        text-align: right;
+        padding: 5px;
+    }
+    .pj:hover{
+        transform: scale(1.1);
+    }
+}
+.streamers{
+    a{
+        color: red;
+        text-decoration: none;
+        display: block;
+    }
+    a:hover{
+        color: #ff6669;
+    }
+    .conocidos{
+        text-align: center;
+        padding: 15px;
+    }
+    .streamers{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .stream{
+        padding: 10px;
+        margin: 5px;
+        line-height: 20px;
+        font-size: 20px;
+        text-align: center;
+    } 
+}
+footer{
+    .foot{
+        background-color: #330001 ;
+        height: 100px;
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 576px) {
+    header{
+font-size: 30px;
+    }
+    a{
+padding: 20px 70px;
+     }
+     h2{
+         font-size: 40px;
+     }
+     h3{
+         font-size: 20px;
+     }
+     p{
+         font-size: 15px;
+     }
+     .secciones{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     .campeones{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     .streamers{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     .montage{
+         padding: 0px;
+     }
+     .montagelee{
+         padding: 0px;
+     }
+    }

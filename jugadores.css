@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    font-family: 'Berkshire Swash', cursive;
+    color: #C99F02;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Berkshire Swash', cursive;
+    color: #C99F02;
+    font-size: 40px;
+}
+a:hover{
+    color: #ff6669;
+}
+P{
+    font-family: 'Work Sans', sans-serif;
+color: red;
+letter-spacing: 1px;
+font-size: 18px;
+}
+.jugadores{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    "player player player"
+    "peke enri montagep"
+    "peke enri motagep"
+    "peke enri motagep"
+    "faker lee montagef"
+    "faker lee montagef"
+    "faker lee montagef"
+    "caps ras montagec"
+    "caps ras montagec"
+    "caps ras montagec"
+    ;
+}
+.player{
+    grid-area: player;
+    text-align: center;
+}
+.peke{
+    grid-area: peke;
+}
+.faker{
+    grid-area: faker;
+}
+.caps{
+    grid-area: caps;
+    text-align: center;
+}
+.enri{
+    grid-area: enri;
+}
+.lee{
+    grid-area: lee;
+}
+.ras{
+    grid-area: ras;
+}
+.montagep{
+    grid-area: montagep;
+    text-align: right;
+}
+.montagef{
+    grid-area: montagef;
+    text-align: right;
+}
+.montagec{
+    grid-area: montagec;
+    text-align: right;
+}
+.worlds{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.campeones{
+    padding: 10px;
+    margin: 5px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.wins{
+    text-align: center;
+    padding: 15px;
+}
+.foot{
+    background-color: #330001 ;
+    height: 100px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.menu{
+    background-color: #330001;
+    font-family: 'Work Sans', sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    color: red;
+    display: block;
+    padding: 30px 257px;
+    text-decoration: none;
+}

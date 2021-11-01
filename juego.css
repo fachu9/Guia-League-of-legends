@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    font-family: 'Berkshire Swash', cursive;
+    color: #C99F02;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Berkshire Swash', cursive;
+    color: #C99F02;
+    font-size: 40px;
+}
+h3{
+    color: #EC9E05;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+a:hover{
+    color: #ff6669;
+}
+P{
+    font-family: 'Work Sans', sans-serif;
+color: red;
+letter-spacing: 1px;
+font-size: 18px;
+}
+
+.apartado{
+    font-family: 'Work Sans', sans-serif;
+color: red;
+letter-spacing: 1px;
+font-size: 20px;
+font-weight: bold;
+}
+.modo{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 29% 50%;
+    grid-template-rows: 100x 80px 80px 80px 80px 80px 80px;
+    align-items: center;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "apartado apartado apartado"
+    "normal normal tiers"
+    "clasif clasif tiers"
+    "flex flex murf"
+    "urf urf murf"
+    "aram aram murf"
+    ;
+}
+.titulo{
+    grid-area: titulo;
+    text-align: center;
+    padding: 15px;
+}
+.apartado{
+    grid-area: apartado;
+    padding: 15px;
+}
+.normal{
+    grid-area: normal;
+}
+.tiers{
+    grid-area: tiers;
+    padding: 5px;
+    text-align: right;
+}
+.clasif{
+    grid-area: clasif;
+}
+.flex{
+    grid-area: flex;
+}
+.urf{
+    grid-area: urf;
+}
+.murf{
+    grid-area: murf;
+    padding: 5px;
+    text-align: right;
+}
+.aram{
+    grid-area: aram
+    ;
+}
+.mapas{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.mapa{
+    padding: 15px;
+    margin: 5px;
+    line-height: 25px;
+    font-size: 500px;
+    text-align: center;
+}
+.hechizos{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 5% 65% 30%;
+    grid-template-rows: 150px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    align-items: center;
+    grid-template-areas: 
+    "hi hi hi"
+    "ba barrera barrera"
+    "cla claridad claridad"
+    "cle clean clean "
+    "cu curar curar"
+    "de destello destello"
+    "ex extenuacion extenuacion"
+    "fa fantasmal fantasmal"
+    "ig ignite ignite"
+    "mar marca marca"
+    "sm smite smite"
+    "tp teleport teleport"
+    ;
+}
+.hi{
+    grid-area: hi;
+    text-align: center;
+    padding: 15px;
+}
+.ba{
+    grid-area: ba;
+}
+.barrera{
+    grid-area: barrera;
+}
+.cla{
+    grid-area: cla;
+}
+.claridad{
+    grid-area: claridad;
+}
+.cle{
+    grid-area: cle;
+}
+.clean{
+    grid-area: clean;
+}
+.cu{
+    grid-area: cu;
+}
+.curar{
+    grid-area: curar;
+}
+.de{
+    grid-area: de;
+}
+.destello{
+    grid-area: destello;
+}
+.ex{
+    grid-area: ex;
+}
+.extenuacion{
+    grid-area: extenuacion;
+}
+.fa{
+    grid-area: fa;
+}
+.fantasmal{
+    grid-area: fantasmal;
+}
+.ig{
+    grid-area: ig;
+}
+.ignite{
+    grid-area: ignite;
+}
+.mar{
+    grid-area: mar;
+}
+.marca{
+    grid-area: marca;
+}
+.sm{
+    grid-area: sm;
+}
+.smite{
+    grid-area: smite;
+}
+.tp{
+    grid-area: tp;
+}
+.teleport{
+    grid-area: teleport;
+}
+.id:hover{
+    transform: scale(1.1);
+}
+.ult{
+    text-align: center;
+}
+.agregado{
+    font-family: 'Work Sans', sans-serif;
+color: red;
+letter-spacing: 1px;
+font-size: 20px;
+font-weight: bold;
+margin: 25px;
+}
+.shurima{
+    float: left;
+    padding: 5px;
+}
+
+.foot{
+    background-color: #330001 ;
+    height: 100px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.menu{
+    background-color: #330001;
+    font-family: 'Work Sans', sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    color: red;
+    display: block;
+    padding: 30px 257px;
+    text-decoration: none;
+}
