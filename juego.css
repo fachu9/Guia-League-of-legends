@@ -234,3 +234,38 @@ a{
     padding: 30px 257px;
     text-decoration: none;
 }
+@media screen and (max-width: 576px) {
+    header{
+font-size: 30px;
+    }
+    a{
+padding: 20px 70px;
+     }
+     h2{
+         font-size: 40px;
+     }
+     h3{
+         font-size: 20px;
+     }
+     p{
+         font-size: 15px;
+     }
+     .modo{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+     }
+     .hechizos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+     .ult{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+     .shurima{
+         float: none;
+     }
+    }
