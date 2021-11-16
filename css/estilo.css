@@ -29,7 +29,7 @@ section p {
 .menu a {
   color: red;
   display: block;
-  padding: 30px 257px;
+  padding: 15px 257px;
   text-decoration: none; }
 
 .menu a:hover {
@@ -48,7 +48,12 @@ section p {
   grid-template-columns: 50% 25% 25%;
   grid-template-rows: 150px 110px 120px 120px 120px 110px;
   align-items: center;
-  grid-template-areas: "titulo titulo titulo" "top top mapa" "jg jg mapa" "mid mid mapa" "adc adc mapa" "supp supp mapa"; }
+  grid-template-areas: "titulo titulo titulo"
+ "top top mapa"
+ "jg jg mapa"
+ "mid mid mapa"
+ "adc adc mapa"
+ "supp supp mapa"; }
   .secciones .titulo {
     grid-area: titulo;
     text-align: center; }
@@ -73,7 +78,13 @@ section p {
   grid-template-columns: 5% 65% 30%;
   grid-template-rows: 150px 100px 100px 100px 100px 100px 100px;
   align-items: center;
-  grid-template-areas: "pjl pjl pjl" "ty rey montagelee" "ir cuchilla montagelee" "le monje montagelee" "ta navaja montage" "va cazadora montage" "lu hechizera montage"; }
+  grid-template-areas: "pjl pjl pjl"
+ "ty rey montagelee"
+ "ir cuchilla montagelee"
+ "le monje montagelee"
+ "ta navaja montage"
+ "va cazadora montage"
+ "lu hechizera montage"; }
   .campeones .pjl {
     grid-area: pjl;
     text-align: center; }

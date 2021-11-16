@@ -25,6 +25,9 @@ color: red;
 letter-spacing: 1px;
 font-size: 18px;
 }
+.fuerte{
+    color: white;
+}
 .jugadores{
     padding: 5px;
     display: grid;
